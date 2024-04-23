@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.instagram-phone img{
+    height: 50rem;
+}
+
+.instagram-continue{
+    display: flex;
+    justify-content: space-around;
+    min-height: 34rem;
+    width: 50%;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+
+
+
+.perfil{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.caixa1 .continuar{
+    color: white;
+    background-color: rgb(0, 157, 255);
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: red;
+    height: 20px;
+}
+
+.remover{
+    color:  rgb(0, 157, 255);
+    width: 100px;
+    background-color: rgba(240, 248, 255, 0);
+    border: red;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.caixa2{
+    border: solid red 1px;
+    height: 100px;
+    width: 100px;
+}
+
+.caixa3{
+    border: solid red 1px;
+    height: 100px;
+    width: 100px;
+}
