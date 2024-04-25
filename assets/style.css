@@ -17,7 +17,7 @@ body{
     justify-content: center;
 }
 
-instagram-wrapper{
+.instagram-wrapper{
     display: flex;
     align-items: center;
     justify-content: start;
@@ -42,7 +42,6 @@ instagram-wrapper{
     justify-content: space-around;
     min-height: 34rem;
     width: 50%;
-    margin-bottom: 5px;
     flex-direction: column;
     align-items: center;
 
@@ -54,50 +53,26 @@ instagram-wrapper{
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
 
+.group:nth-child(1){
+    min-height : 19rem;
+}
 
+.instagram-logo{
+    height: 3rem;
+}
 
-
-.perfil{
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
 }
 
-.caixa1 .continuar{
-    color: white;
-    background-color: rgb(0, 157, 255);
-    width: 100px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 10px;
-    border: red;
-    height: 20px;
-}
-
-.remover{
-    color:  rgb(0, 157, 255);
-    width: 100px;
-    background-color: rgba(240, 248, 255, 0);
-    border: red;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 10px;
-
-}
-.caixa2{
-    border: solid red 1px;
-    height: 100px;
-    width: 100px;
-}
-
-.caixa3{
-    border: solid red 1px;
-    height: 100px;
-    width: 100px;
+.profile-photo img{
+    height: 6rem;
 }
